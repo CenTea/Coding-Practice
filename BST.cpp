@@ -21,7 +21,6 @@ int findClosestValueInBst(BST *tree, int target) {
 			closestValue = tree->value;
 		}
 		if(tree->value == target){
-			cout<<"yay we found it";
 			return tree->value;
 		}
 		else if(tree->value < target){
